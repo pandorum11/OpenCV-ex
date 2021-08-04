@@ -439,18 +439,6 @@ int main() {
 			// непосредственно вставка в кадр
 			cv::addWeighted(frame, 1.0, warped, 1.0, \
 				0.0, result);
-
-			// запись кадра в выходное видео
-			//if (frame_counter > 650 && frame_counter < 750) {
-			//	//cv::imwrite("E:/Vid1M_build/BTS_N1_TT/IMG_LASTDIST/Frame_ " + std::to_string(frame_counter) + ".png", result);
-			//	draw_points(contours, frame_counter, frame);
-			//}
-			//if (frame_counter > 20) break;
-			
-			//if (frame_counter > 1223) {
-			//	//cv::imwrite("E:/Vid1M_build/BTS_N1_TT/IMG_LASTDIST/Frame_ " + std::to_string(frame_counter) + ".png", result);
-			//	write_points(contours, frame_counter, "test_final");
-			//}
 			writer.write(result);
 			
 			cap >> frame;
