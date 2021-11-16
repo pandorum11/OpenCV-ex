@@ -58,7 +58,7 @@ extern const int scalling(2); // расширение четырехугольн
 extern std::string video_path("video.mp4"); // путь к исходному видео
 extern std::string img_path_1("beavis.png"); // первая
 extern std::string img_path_2("butthead.png"); // и вторая картинки
-extern std::string video_out_path("E:/Vid1M_build/BTS_N1_TT/VID/video_out_101010");
+extern std::string video_out_path("E:/Vid1M_build/BTS_N1_TT/VID/video_out");
 
 /////////////////////////////////////////
 
